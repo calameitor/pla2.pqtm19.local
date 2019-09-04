@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"> <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Practica L</title>
+  <meta name="description" content="">
+  <meta name="author" content="qav">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style type="text/css">
+    .sudoku {
+      table-layout: fixed;
+      color: black;
+      font-size: 1.8rem;
+      width: 30rem;
+      height: 30rem;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      border-collapse: collapse;
+    }
+
+    .sudoku td {
+      vertical-align: middle;
+      text-align: center;
+      border-style: solid;
+      border-color: black;
+      border-width: 1px;
+    }
+
+    /* línies verticals */
+    .sudoku td:nth-child(3n+1) {
+      border-left-style: solid;
+      border-left-color: black;
+      border-left-width: 3px;
+    }
+
+    /* línies horitzontals */
+    .sudoku tr:nth-child(3n+3) {
+      border-bottom-style: solid;
+      border-bottom-color: black;
+      border-bottom-width: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pràctica.L Taules </h1>
+  </header>
+  <table class="sudoku">
+    <caption>Sudoku</caption>
+    <tbody>
+      <tr>
+        <td></td>
+        <td>9</td>
+        <td></td>
+        <td></td>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td>7</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td>6</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td>9</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2</td>
+        <td></td>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>7</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>8</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>9</td>
+        <td></td>
+        <td></td>
+        <td>8</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
