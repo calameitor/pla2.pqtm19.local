@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+[class*="col"] {
+ margin-bottom: 20px;
+}
+img {
+ width: 100%;
+}
+body {
+ margin-top: 30px;
+}
